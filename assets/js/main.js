@@ -138,7 +138,8 @@
       var btn = form.querySelector('button[type=submit]');
       /* honeypot */
       var hp = form.querySelector('input[name="_gotcha"]');
-      if (hp && hp.value) return;
+      var hp2 = form.querySelector('input[name="company_website"]');
+      if ((hp && hp.value) || (hp2 && hp2.value)) return;
 
       var data = new FormData(form);
       var body = crmPayload(form, data);
@@ -177,7 +178,7 @@
         form.reset();
         if (window.mjTrack) mjTrack('lead_form_submitted', { form_location: funnel, delivery: delivery });
         if (window.gtag) gtag('event', 'generate_lead', {
-          method: funnel === 'renewal' ? 'renewal_tool' : 'contact_form'
+          method: funnel.indexOf('renewal') !== -1 ? 'renewal_form' : 'contact_form'
         });
       }).catch(function () {
         msg.className = 'form-msg err';

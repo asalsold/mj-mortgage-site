@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.google.com https://*.gstatic.com; connect-src 'self' https://app.asalsold.com https://formsubmit.co https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.google.com https://maps.google.com; form-action 'self' https://formsubmit.co; upgrade-insecure-requests">
 <title>سیاست حریم خصوصی | MJ Mortgage</title>
 <meta name="description" content="نحوه جمع‌آوری، استفاده و محافظت از اطلاعات شخصی شما در MJ Mortgage.">
 <link rel="canonical" href="https://mjmortgage.ca/fa/privacy.html">
@@ -21,13 +22,16 @@
 <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQD7DVQ8BS"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+try{if(localStorage.getItem('mj_consent')==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
 gtag('js',new Date());
 gtag('set',{language:'fa',page_type:'privacy'});
 gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalization_signals:false});
@@ -64,7 +68,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <a href="../fa/contact.html">تماس</a>
     </nav>
     <div class="hdr-cta">
-      <a class="hdr-tel" href="tel:+14168571466">📞 <span>۴۱۶-۸۵۷-۱۴۶۶</span></a>
+      <a class="hdr-tel" href="tel:+14168571466" aria-label="تماس ۴۱۶-۸۵۷-۱۴۶۶"><span aria-hidden="true">📞</span> <span>۴۱۶-۸۵۷-۱۴۶۶</span></a>
       <a class="lang-link" href="../privacy.html" lang="en" dir="ltr">English</a>
       <a class="btn btn-fill hdr-book" href="../fa/contact.html">رزرو مشاوره رایگان</a>
       <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="mnav" aria-label="Menu">&#9776;</button>
@@ -84,7 +88,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
     <a href="../fa/blog/index.html">مرکز آموزش</a>
     <a href="../fa/contact.html">تماس</a>
     <div class="mnav-cta">
-      <a class="btn btn-fill" href="tel:+14168571466">📞 تماس فوری</a>
+      <a class="btn btn-fill" href="tel:+14168571466"><span aria-hidden="true">📞</span> تماس فوری</a>
       <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener">واتساپ</a>
     </div>
 </div>
@@ -94,9 +98,9 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
   <h1>سیاست <em>حریم خصوصی</em></h1>
 </div></section>
 <section class="section" style="padding-top:2rem"><div class="wrap"><div class="article"><h2>اطلاعات شما</h2><p>وقتی فرمی را در این وب‌سایت ارسال می‌کنید، اطلاعات تماسی که وارد کرده‌اید (نام، تلفن، ایمیل و پیام‌تان) صرفاً برای پاسخ به درخواست شما و ارائه خدمات مشاوره مورگج جمع‌آوری می‌شود. ما هرگز اطلاعات شخصی شما را نمی‌فروشیم یا اجاره نمی‌دهیم.</p>
-<h2>نحوه استفاده</h2><p>اطلاعات شما به‌صورت امن به ایمیل ما تحویل و برای پیگیری نگهداری می‌شود. اگر درخواست مورگج را ادامه دهید، اطلاعات بیشتر طبق الزامات انطباق و حریم خصوصی بروکریج جمع‌آوری شده و فقط با رضایت شما با وام‌دهندگان و طرف‌های لازم برای تامین مالی به اشتراک گذاشته می‌شود.</p>
+<h2>نحوه استفاده</h2><p>اطلاعات شما به‌صورت امن به یک سامانه‌ی مدیریت مشتری که توسط ASAL برای MJ Mortgage اداره می‌شود (app.asalsold.com) و در مرکز داده‌ای خارج از کانادا میزبانی می‌شود ارسال و برای پیگیری نگهداری می‌شود؛ اگر آن سامانه در دسترس نباشد، به‌جای آن به ایمیل ما فرستاده می‌شود. فقط مرجان علاءالدینی و افرادی که از کار او پشتیبانی می‌کنند به آن دسترسی دارند. اگر درخواست مورگج را ادامه دهید، اطلاعات بیشتر طبق الزامات انطباق و حریم خصوصی بروکریج جمع‌آوری شده و فقط با رضایت شما با وام‌دهندگان و طرف‌های لازم برای تامین مالی به اشتراک گذاشته می‌شود.</p>
 <h2>رضایت و تماس</h2><p>با ارسال فرم، رضایت می‌دهید که درباره درخواست‌تان از طریق تلفن، ایمیل یا پیامک با شما تماس گرفته شود (طبق قانون CASL هر زمان می‌توانید رضایت خود را پس بگیرید). برای دسترسی، اصلاح یا حذف اطلاعات‌تان با Info@mjmortgage.ca یا 416-857-1466 تماس بگیرید.</p>
-<h2>کوکی و آنالیتیکس</h2><p>این سایت از Google Analytics 4 استفاده می‌کند تا بدانیم سایت چگونه استفاده می‌شود — کدام صفحات دیده می‌شود، به چه زبانی، کدام ماشین‌حساب باز می‌شود و روی کدام راه تماس کلیک می‌شود. گوگل برای این کار کوکی‌هایی در مرورگر شما قرار می‌دهد. ذخیره‌سازی تبلیغاتی، شخصی‌سازی تبلیغات و Google Signals همگی غیرفعال هستند، بنابراین این داده‌ها برای ساختن پروفایل تبلیغاتی از شما استفاده نمی‌شود. ما هیچ‌چیزی را که تایپ می‌کنید به Google Analytics نمی‌فرستیم: نه نام، ایمیل، شماره تلفن یا پیام شما، و نه هیچ عددی که در ماشین‌حساب وارد می‌کنید — درآمد، قیمت خرید و پیش‌پرداخت شما در مرورگر خودتان محاسبه می‌شود و هرگز برای ما یا گوگل ارسال نمی‌شود. مدت نگهداری این داده‌ها توسط تنظیم data retention روی پراپرتی Google Analytics ما تعیین می‌شود؛ برای اطلاع از مقدار فعلی آن، یا برای درخواست حذف اطلاعات‌تان، با Info@mjmortgage.ca تماس بگیرید. می‌توانید با تنظیمات کوکی مرورگرتان یا افزونه انصراف گوگل در نشانی tools.google.com/dlpage/gaoptout آنالیتیکس را کاملاً مسدود کنید.</p></div></div></section>
+<h2>کوکی و آنالیتیکس</h2><p>این سایت از Google Analytics 4 استفاده می‌کند تا بدانیم سایت چگونه استفاده می‌شود — کدام صفحات دیده می‌شود، به چه زبانی، کدام ماشین‌حساب باز می‌شود و روی کدام راه تماس کلیک می‌شود. کوکی‌های آماری فقط پس از انتخاب «قبول» در اعلان پایین صفحه فعال می‌شوند؛ با انتخاب «رد» غیرفعال می‌مانند و بعداً می‌توانید با پاک کردن داده‌های این سایت در مرورگرتان پاسخ‌تان را تغییر دهید. ذخیره‌سازی تبلیغاتی، شخصی‌سازی تبلیغات و Google Signals همگی غیرفعال هستند، بنابراین این داده‌ها برای ساختن پروفایل تبلیغاتی از شما استفاده نمی‌شود. ما هیچ‌چیزی را که تایپ می‌کنید به Google Analytics نمی‌فرستیم: نه نام، ایمیل، شماره تلفن یا پیام شما، و نه هیچ عددی که در ماشین‌حساب وارد می‌کنید — درآمد، قیمت خرید و پیش‌پرداخت شما در مرورگر خودتان محاسبه می‌شود و هرگز برای ما یا گوگل ارسال نمی‌شود. مدت نگهداری این داده‌ها توسط تنظیم data retention روی پراپرتی Google Analytics ما تعیین می‌شود؛ برای اطلاع از مقدار فعلی آن، یا برای درخواست حذف اطلاعات‌تان، با Info@mjmortgage.ca تماس بگیرید. می‌توانید با تنظیمات کوکی مرورگرتان یا افزونه انصراف گوگل در نشانی tools.google.com/dlpage/gaoptout آنالیتیکس را کاملاً مسدود کنید.</p></div></div></section>
 </main>
 <footer>
   <div class="foot-in">
@@ -145,9 +149,9 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <div>
         <p class="fh">تماس</p>
         <div class="fn">
-          <a href="tel:+14168571466">📞 ۴۱۶-۸۵۷-۱۴۶۶</a>
-          <a href="mailto:Info@mjmortgage.ca">✉️ Info@mjmortgage.ca</a>
-          <a href="https://wa.me/14168571466" target="_blank" rel="noopener">💬 واتساپ</a>
+          <a href="tel:+14168571466"><span aria-hidden="true">📞</span> ۴۱۶-۸۵۷-۱۴۶۶</a>
+          <a href="mailto:Info@mjmortgage.ca"><span aria-hidden="true">✉️</span> Info@mjmortgage.ca</a>
+          <a href="https://wa.me/14168571466" target="_blank" rel="noopener"><span aria-hidden="true">💬</span> واتساپ</a>
         </div>
         <p style="font-size:.75rem;line-height:1.7;margin-top:.8rem">دوشنبه تا جمعه: ۹ تا ۲۰ · شنبه: ۱۰ تا ۱۸ · یکشنبه: با وقت قبلی</p>
       </div>
@@ -164,9 +168,20 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
 </a>
 <button class="stb" id="stb" aria-label="بازگشت به بالا">↑</button>
 <div class="callbar">
-  <a class="cb-tel" href="tel:+14168571466">📞 تماس فوری</a>
+  <a class="cb-tel" href="tel:+14168571466"><span aria-hidden="true">📞</span> تماس فوری</a>
   <a class="cb-book" href="../fa/contact.html">رزرو مشاوره رایگان</a>
 </div>
+<div class="ck" id="ck" role="region" aria-label="سیاست حریم خصوصی" hidden>
+  <p>این سایت از Google Analytics برای درک نحوه‌ی استفاده از سایت بهره می‌برد. کوکی‌های آماری فقط در صورت پذیرش شما فعال می‌شوند — هیچ‌چیزی که در فرم یا ماشین‌حساب وارد می‌کنید هرگز ارسال نمی‌شود. <a href="../fa/privacy.html">سیاست حریم خصوصی</a></p>
+  <div class="ck-b"><button type="button" id="ck-no">رد</button><button type="button" id="ck-ok" class="fs">قبول</button></div>
+</div>
+<script>
+(function(){var k='mj_consent',b=document.getElementById('ck');if(!b)return;var v=null;try{v=localStorage.getItem(k)}catch(e){}
+if(v==='granted'||v==='denied')return;b.hidden=false;
+function pick(g){try{localStorage.setItem(k,g?'granted':'denied')}catch(e){}if(window.gtag)gtag('consent','update',{analytics_storage:g?'granted':'denied'});b.hidden=true}
+document.getElementById('ck-ok').addEventListener('click',function(){pick(true)});
+document.getElementById('ck-no').addEventListener('click',function(){pick(false)});})();
+</script>
 <script src="../assets/js/track.js"></script>
 <script src="../assets/js/main.js"></script>
 </body>

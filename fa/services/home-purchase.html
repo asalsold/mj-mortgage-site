@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.google.com https://*.gstatic.com; connect-src 'self' https://app.asalsold.com https://formsubmit.co https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src https://www.google.com https://maps.google.com; form-action 'self' https://formsubmit.co; upgrade-insecure-requests">
 <title>مورگج خرید خانه در تورنتو و GTA | MJ Mortgage</title>
 <meta name="description" content="خریدار بار اول هستید یا خانه بزرگ‌تر می‌خواهید؟ پیش‌تاییدیه بگیرید و بهترین نرخ مورگج را برای خرید خانه در تورنتو و GTA قفل کنید. خدمات فارسی و انگلیسی. مشاوره رایگان.">
 <link rel="canonical" href="https://mjmortgage.ca/fa/services/home-purchase.html">
@@ -21,13 +22,16 @@
 <link rel="icon" type="image/svg+xml" href="../../assets/img/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <link rel="stylesheet" href="../../assets/css/style.css">
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQD7DVQ8BS"></script>
 <script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
-gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
+try{if(localStorage.getItem('mj_consent')==='granted')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}
 gtag('js',new Date());
 gtag('set',{language:'fa',page_type:'service'});
 gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalization_signals:false});
@@ -65,7 +69,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <a href="../../fa/contact.html">تماس</a>
     </nav>
     <div class="hdr-cta">
-      <a class="hdr-tel" href="tel:+14168571466">📞 <span>۴۱۶-۸۵۷-۱۴۶۶</span></a>
+      <a class="hdr-tel" href="tel:+14168571466" aria-label="تماس ۴۱۶-۸۵۷-۱۴۶۶"><span aria-hidden="true">📞</span> <span>۴۱۶-۸۵۷-۱۴۶۶</span></a>
       <a class="lang-link" href="../../services/home-purchase.html" lang="en" dir="ltr">English</a>
       <a class="btn btn-fill hdr-book" href="../../fa/contact.html">رزرو مشاوره رایگان</a>
       <button class="mbtn" id="mbtn" aria-expanded="false" aria-controls="mnav" aria-label="Menu">&#9776;</button>
@@ -85,7 +89,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
     <a href="../../fa/blog/index.html">مرکز آموزش</a>
     <a href="../../fa/contact.html">تماس</a>
     <div class="mnav-cta">
-      <a class="btn btn-fill" href="tel:+14168571466">📞 تماس فوری</a>
+      <a class="btn btn-fill" href="tel:+14168571466"><span aria-hidden="true">📞</span> تماس فوری</a>
       <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener">واتساپ</a>
     </div>
 </div>
@@ -96,7 +100,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
     <h1>مورگج <em>خرید خانه</em></h1>
     <p class="lead">از اولین پیش‌تاییدیه تا روزی که کلید را می‌گیرید — راهنمایی تخصصی و دسترسی به ده‌ها وام‌دهنده که برای پرونده شما رقابت می‌کنند.</p>
     <div class="phero-ctas">
-      <a class="btn btn-fill" href="tel:+14168571466">📞 تماس فوری</a>
+      <a class="btn btn-fill" href="tel:+14168571466"><span aria-hidden="true">📞</span> تماس فوری</a>
       <a class="btn btn-out" href="../../fa/contact.html">رزرو مشاوره رایگان</a>
     </div>
   </div>
@@ -117,8 +121,8 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
         <div class="aside-card teal rv">
           <h3>سوال دارید؟</h3>
           <p>فرم را کنار بگذارید — مستقیم به مرجان زنگ بزنید یا واتساپ بدهید و در چند دقیقه جواب صادقانه بگیرید.</p>
-          <a class="btn btn-fill" href="tel:+14168571466" style="margin-bottom:.7rem">📞 ۴۱۶-۸۵۷-۱۴۶۶</a>
-          <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener">💬 واتساپ</a>
+          <a class="btn btn-fill" href="tel:+14168571466" style="margin-bottom:.7rem"><span aria-hidden="true">📞</span> ۴۱۶-۸۵۷-۱۴۶۶</a>
+          <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener"><span aria-hidden="true">💬</span> واتساپ</a>
         </div>
         <div class="aside-card rv">
           <h3>سایر خدمات</h3>
@@ -132,6 +136,38 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
         </div>
       </aside>
     </div>
+  </div>
+</section>
+
+<section class="section" id="enquire">
+  <div class="wrap tc">
+    <div class="rv"><div class="tag">ترجیح می‌دهید همین‌جا بمانید؟</div><h2 class="h2">اطلاعات‌تان را <em>مستقیم</em> بفرستید</h2><div class="rule ctr"></div></div>
+    
+<div class="fbox rv fbox-solo">
+  <h2 class="ft">رزرو مشاوره رایگان</h2>
+  <p class="fsub">بدون تعهد و بدون اصرار — فقط پاسخ‌های صادقانه درباره گزینه‌های شما. پاسخ‌گویی در چند ساعت کاری.</p>
+  <form data-lead novalidate="" data-funnel="mj-website-home-purchase">
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <input type="text" name="company_website" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="frow">
+      <div class="fg"><label for="sf-first">نام</label><input id="sf-first" name="First Name" type="text" required autocomplete="given-name"></div>
+      <div class="fg"><label for="sf-last">نام خانوادگی</label><input id="sf-last" name="Last Name" type="text" autocomplete="family-name"></div>
+    </div>
+    <div class="frow">
+      <div class="fg"><label for="sf-phone">تلفن</label><input id="sf-phone" name="Phone" type="tel" autocomplete="tel" aria-describedby="sf-hint"></div>
+      <div class="fg"><label for="sf-email">ایمیل</label><input id="sf-email" name="Email" type="email" autocomplete="email" aria-describedby="sf-hint"></div>
+    </div>
+    <p class="fhint" id="sf-hint">ایمیل یا تلفن — لطفاً حداقل یکی را وارد کنید.</p>
+    <div class="fg"><label for="sf-int">موضوع مورد نظر</label>
+      <select id="sf-int" name="Interested In"><option value="">— انتخاب کنید —</option><option selected>خرید خانه</option><option>پیش‌تأیید (Pre-Approval)</option><option>تمدید یا انتقال مورگج</option><option>ری‌فایننس یا یکپارچه‌سازی بدهی</option><option>هوم اکوییتی / HELOC / برداشت از ارزش خانه</option><option>مورگج دوم یا وام پل</option><option>وام جایگزین / B-Lender</option><option>خویش‌فرما یا تازه‌وارد به کانادا</option><option>ملک سرمایه‌گذاری یا تجاری</option><option>وام ساخت‌وساز</option><option>مورگج معکوس</option><option>سایر</option></select>
+    </div>
+    <div class="fg"><label for="sf-msg">پیام (اختیاری)</label><textarea id="sf-msg" name="Message" placeholder="درباره شرایط‌تان برایم بنویسید…"></textarea></div>
+    <label class="fcheck"><input type="checkbox" name="Consent" value="yes"><span>بله، مرجان علاءالدینی می‌تواند درباره‌ی همین درخواست و گاهی اخبار مورگج به من ایمیل بزند. هر وقت بخواهم می‌توانم لغو کنم.</span></label>
+    <button type="submit" class="fs">ارسال پیام</button>
+    <p class="fnote">ارسال به MJ Mortgage · The Mortgage Alliance Company of Canada Inc. (بروکریج شماره 10530) · ۱۶-۸۶۱۱ وستون رود، وودبریج، انتاریو L4L 9P1. هر زمان می‌توانید رضایت خود را پس بگیرید.</p>
+    <div class="form-msg" role="status" aria-live="polite"></div>
+  </form>
+</div>
   </div>
 </section>
 
@@ -155,9 +191,9 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <h2>آماده‌اید درباره مورگج‌تان صحبت کنیم؟</h2>
       <p>مشاوره رایگان · عصرها و آخر هفته‌ها هم در دسترس · فارسی و انگلیسی</p>
       <div class="ctas">
-        <a class="btn btn-fill" href="tel:+14168571466">📞 ۴۱۶-۸۵۷-۱۴۶۶</a>
+        <a class="btn btn-fill" href="tel:+14168571466"><span aria-hidden="true">📞</span> ۴۱۶-۸۵۷-۱۴۶۶</a>
         <a class="btn btn-gold" href="../../fa/contact.html">رزرو مشاوره رایگان</a>
-        <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener">💬 واتساپ</a>
+        <a class="btn btn-wa" href="https://wa.me/14168571466" target="_blank" rel="noopener"><span aria-hidden="true">💬</span> واتساپ</a>
       </div>
     </div>
   </div>
@@ -210,9 +246,9 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <div>
         <p class="fh">تماس</p>
         <div class="fn">
-          <a href="tel:+14168571466">📞 ۴۱۶-۸۵۷-۱۴۶۶</a>
-          <a href="mailto:Info@mjmortgage.ca">✉️ Info@mjmortgage.ca</a>
-          <a href="https://wa.me/14168571466" target="_blank" rel="noopener">💬 واتساپ</a>
+          <a href="tel:+14168571466"><span aria-hidden="true">📞</span> ۴۱۶-۸۵۷-۱۴۶۶</a>
+          <a href="mailto:Info@mjmortgage.ca"><span aria-hidden="true">✉️</span> Info@mjmortgage.ca</a>
+          <a href="https://wa.me/14168571466" target="_blank" rel="noopener"><span aria-hidden="true">💬</span> واتساپ</a>
         </div>
         <p style="font-size:.75rem;line-height:1.7;margin-top:.8rem">دوشنبه تا جمعه: ۹ تا ۲۰ · شنبه: ۱۰ تا ۱۸ · یکشنبه: با وقت قبلی</p>
       </div>
@@ -229,9 +265,20 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
 </a>
 <button class="stb" id="stb" aria-label="بازگشت به بالا">↑</button>
 <div class="callbar">
-  <a class="cb-tel" href="tel:+14168571466">📞 تماس فوری</a>
+  <a class="cb-tel" href="tel:+14168571466"><span aria-hidden="true">📞</span> تماس فوری</a>
   <a class="cb-book" href="../../fa/contact.html">رزرو مشاوره رایگان</a>
 </div>
+<div class="ck" id="ck" role="region" aria-label="سیاست حریم خصوصی" hidden>
+  <p>این سایت از Google Analytics برای درک نحوه‌ی استفاده از سایت بهره می‌برد. کوکی‌های آماری فقط در صورت پذیرش شما فعال می‌شوند — هیچ‌چیزی که در فرم یا ماشین‌حساب وارد می‌کنید هرگز ارسال نمی‌شود. <a href="../../fa/privacy.html">سیاست حریم خصوصی</a></p>
+  <div class="ck-b"><button type="button" id="ck-no">رد</button><button type="button" id="ck-ok" class="fs">قبول</button></div>
+</div>
+<script>
+(function(){var k='mj_consent',b=document.getElementById('ck');if(!b)return;var v=null;try{v=localStorage.getItem(k)}catch(e){}
+if(v==='granted'||v==='denied')return;b.hidden=false;
+function pick(g){try{localStorage.setItem(k,g?'granted':'denied')}catch(e){}if(window.gtag)gtag('consent','update',{analytics_storage:g?'granted':'denied'});b.hidden=true}
+document.getElementById('ck-ok').addEventListener('click',function(){pick(true)});
+document.getElementById('ck-no').addEventListener('click',function(){pick(false)});})();
+</script>
 <script src="../../assets/js/track.js"></script>
 <script src="../../assets/js/main.js"></script>
 </body>
