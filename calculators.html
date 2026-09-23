@@ -109,8 +109,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
       <button class="calc-tab" role="tab" aria-selected="false" data-panel="panel-landtransfer">Land transfer tax</button>
     </div>
 
-    <div class="calc-panel on" id="panel-payment">
-      <div class="calc-form">
+    <div class="calc-panel on" id="panel-payment"><div class="calc-form">
         <div class="fg"><label for="p-price">Home Price</label><input id="p-price" value="800000" type="number" inputmode="decimal" step="10000" min="0"></div>
         <div class="fg"><label for="p-down">Down Payment</label><input id="p-down" value="160000" type="number" inputmode="decimal" step="5000" min="0"></div>
         <div class="fg"><label for="p-rate">Interest Rate (%)</label><input id="p-rate" value="4.5" type="number" inputmode="decimal" step="0.05" min="0"></div>
@@ -130,11 +129,8 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
           <div class="co-row"><span>Total interest over amortization</span><span id="p-int">—</span></div>
         </div>
         <div class="calc-cta"><a class="btn btn-fill" href="contact.html">Get an exact quote from Marjan</a></div>
-      </div>
-    </div>
-
-    <div class="calc-panel" id="panel-affordability">
-      <div class="calc-form">
+      </div></div>
+    <div class="calc-panel" id="panel-affordability"><div class="calc-form">
         <div class="fg"><label for="a-income">Annual Household Income</label><input id="a-income" value="120000" type="number" inputmode="decimal" step="5000" min="0"></div>
         <div class="fg"><label for="a-debts">Monthly Debt Payments</label><input id="a-debts" value="500" type="number" inputmode="decimal" step="50" min="0"><div class="hint">Car loans, credit cards, lines of credit…</div></div>
         <div class="fg"><label for="a-down">Down Payment Available</label><input id="a-down" value="100000" type="number" inputmode="decimal" step="5000" min="0"></div>
@@ -151,11 +147,8 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
           <div class="co-row"><span>Stress-test qualifying rate</span><span id="a-qual">—</span></div>
         </div>
         <div class="calc-cta"><a class="btn btn-fill" href="contact.html">Get an exact quote from Marjan</a></div>
-      </div>
-    </div>
-
-    <div class="calc-panel" id="panel-landtransfer">
-      <div class="calc-form">
+      </div></div>
+    <div class="calc-panel" id="panel-landtransfer"><div class="calc-form">
         <div class="fg"><label for="l-price">Purchase Price</label><input id="l-price" value="800000" type="number" inputmode="decimal" step="10000" min="0"></div>
         <div class="fg"><label for="l-city">Property Location</label>
           <select id="l-city"><option value="toronto">In the City of Toronto</option><option value="ontario">Ontario — outside Toronto</option></select>
@@ -175,8 +168,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
           <div class="co-row"><span>First-time buyer rebate</span><span id="l-reb">—</span></div>
         </div>
         <div class="calc-cta"><a class="btn btn-fill" href="contact.html">Get an exact quote from Marjan</a></div>
-      </div>
-    </div>
+      </div></div>
 
     <p class="lead ctr tc" style="margin-top:2.5rem;font-size:.8rem">Estimates only — actual amounts depend on qualification and lender terms. Payment uses Canadian semi-annual compounding; CMHC premium added automatically when the down payment is under 20%. Affordability uses GDS 39% / TDS 44% and the federal stress test (contract rate + 2%, min 5.25%).</p>
   </div>
@@ -216,10 +208,10 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
     </div>
     <p class="fhint" id="cf-hint">Email or phone — at least one, please.</p>
     <div class="fg"><label for="cf-int">I'm Interested In</label>
-      <select id="cf-int" name="Interested In"><option value="">— Select —</option><option>Home Purchase</option><option selected>Pre-Approval</option><option>Mortgage Renewal or Transfer</option><option>Refinancing or Debt Consolidation</option><option>Home Equity / HELOC / Equity Take-Out</option><option>Second Mortgage or Bridge Financing</option><option>Alternative / B-Lender Mortgage</option><option>Self-Employed or New to Canada</option><option>Investment or Commercial Property</option><option>Construction Loan</option><option>Reverse Mortgage</option><option>Other</option></select>
+      <select id="cf-int" name="Interested In"><option value="">— Select —</option><option>Home Purchase</option><option selected>Pre-Approval</option><option>Mortgage Renewal or Transfer</option><option>Refinancing or Debt Consolidation</option><option>Home Equity / HELOC / Equity Take-Out</option><option>Second Mortgage or Bridge Financing</option><option>Alternative / B-Lender Mortgage</option><option>Self-Employed or New to Canada</option><option>Investment or Commercial Property</option><option>Construction Loan</option><option>Other</option></select>
     </div>
     <div class="fg"><label for="cf-msg">Message (optional)</label><textarea id="cf-msg" name="Message" placeholder="Tell me about your situation…"></textarea></div>
-    <label class="fcheck"><input type="checkbox" name="Consent" value="yes"><span>Yes, Marjan Alaeddini may email me about this enquiry and occasional mortgage updates. I can unsubscribe at any time.</span></label>
+    <label class="fcheck"><input type="checkbox" name="Consent" value="yes"><span>Yes, Marjan Alaeddini may also send me occasional mortgage updates. I can unsubscribe at any time. (She replies to this enquiry either way — that needs no box.)</span></label>
     <button type="submit" class="fs">Send Message →</button>
     <p class="fnote">Sent to MJ Mortgage · The Mortgage Alliance Company of Canada Inc. (Brokerage # 10530) · 16-8611 Weston Road, Woodbridge, ON L4L 9P1. You can withdraw consent at any time.</p>
     <div class="form-msg" role="status" aria-live="polite"></div>
@@ -234,7 +226,7 @@ gtag('config','G-MQD7DVQ8BS',{allow_google_signals:false,allow_ad_personalizatio
     <div class="renew-box rv">
       <p class="renew-sub">Enter your maturity date and see the days remaining, the window to start preparing, the documents to gather and the questions worth asking. No rate quote, no approval — a plan.</p>
       <p style="text-align:center;margin:1.4rem 0 .6rem">
-        <a class="fs" style="display:inline-block;text-decoration:none;padding:.9rem 1.6rem" href="https://app.asalsold.com/mortgage/renewal-planner?utm_source=marjan_website&utm_medium=owned&utm_campaign=mortgage_renewal_planner&utm_content=calculators_en" rel="noopener">Build my renewal plan</a>
+        <a class="fs" style="display:inline-block;text-decoration:none;padding:.9rem 1.6rem" href="https://app.asalsold.com/mortgage/renewal-planner?utm_source=marjan_website&utm_medium=owned&utm_campaign=mortgage_renewal_planner&utm_content=calculators_en" target="_blank" rel="noopener">Build my renewal plan</a>
       </p>
       <p class="renew-why">Opens the planner. Your result appears on the page — no email address needed to see it.</p>
     </div>

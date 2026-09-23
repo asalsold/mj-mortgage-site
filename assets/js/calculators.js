@@ -194,9 +194,13 @@
     });
     fn();   /* load-time render — deliberately untracked */
   }
-  if (document.getElementById('p-price')) {
-    bind(['p-price', 'p-down', 'p-rate', 'p-amort', 'p-freq'], calcPayment, 'payment', 'p-price');
-    bind(['a-income', 'a-debts', 'a-down', 'a-rate', 'a-amort'], calcAfford, 'affordability', 'a-income');
-    bind(['l-price', 'l-city', 'l-ftb'], calcLTT, 'land_transfer', 'l-price');
-  }
+  /* Each calculator binds independently now — a standalone page carrying
+     only one panel (no p-price on the affordability page, say) used to bind
+     nothing at all, because all three were gated behind a single shared
+     `p-price` check. Found while splitting the calculators onto their own
+     URLs, 21 Sep 2026; fixed here since the hub page's behaviour is
+     unchanged either way (all three ids still exist there). */
+  if (document.getElementById('p-price')) bind(['p-price', 'p-down', 'p-rate', 'p-amort', 'p-freq'], calcPayment, 'payment', 'p-price');
+  if (document.getElementById('a-income')) bind(['a-income', 'a-debts', 'a-down', 'a-rate', 'a-amort'], calcAfford, 'affordability', 'a-income');
+  if (document.getElementById('l-price')) bind(['l-price', 'l-city', 'l-ftb'], calcLTT, 'land_transfer', 'l-price');
 })();
