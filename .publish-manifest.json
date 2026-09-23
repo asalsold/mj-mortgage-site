@@ -1,6 +1,6 @@
 {
  ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
- "404.html": "252a0ac46dff9918410c7e8fbd553d05acee487cb28fcc44abd8ad83eaba9061",
+ "404.html": "c94af28c5c872d8fdc5962049e0ccd997e37c2971194637387033b4342dde3c3",
  "CNAME": "e9b86aadfcdc8c54bec180b49befa867b088ff46bf138ed47b8f5a151c86ef1f",
  "about.html": "82abb11937359a2b2f28d6e29ccabb79db847a900e0ebca3863176312b713be1",
  "assets/css/style.css": "4b84fb006d49260204fd8e2e5a27a24838637898f66e620cdf63c8fd2754e004",
@@ -16,6 +16,9 @@
  "blog/mortgage-renewal-mistakes.html": "76ef66db1f6b04e662f31feb456ca418d7db7df71a5eb3ac9465ca3a2d8383a7",
  "blog/private-mortgage-guide.html": "4be0ad4a7fe8fac303518594d396921a3a650ea3198212c6cf2874e49e1230a1",
  "calculators.html": "19716bae9c10e866748629a0e44b9508bafd61ce03f7c748cd0ed8067ce5e094",
+ "calculators/affordability.html": "79d1c17b85daca065d30bb9a04c080d00a121a36add69fc7a7db66397375e29b",
+ "calculators/land-transfer-tax.html": "55f3cd5d0467b64e5d1696bab0b97b0a1b3249d8d3d03e9733dd239623f480e2",
+ "calculators/payment.html": "10c72dbdc510b0e418c7730f732117ca6edb39a0656ba8c1f7a11f70c74c227c",
  "contact.html": "85928572d6d2752b47f857e75362b762f1a2fa66cb50367cc2c9d691ce7a969e",
  "fa/about.html": "8a9e05c6a68719ede70d99c30fea5fed01b72e91858f2675fe3f6d6c77bc1970",
  "fa/blog/first-time-home-buyer-toronto.html": "f657332fee1e76a8e4ad307d89b72ed6aefbf541ef976816ff26f1519226cd66",
