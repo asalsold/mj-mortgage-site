@@ -12,7 +12,7 @@
  "assets/js/main.js": "1166b53b142788694946ddad0e42486c5fb48c253f76db08e8fe6b60b2c0e365",
  "assets/js/track.js": "b272c5e669cfc3a35037b1b96f3670e718f009a477d641d98b4e168b9f5a758e",
  "blog/first-time-home-buyer-toronto.html": "6984b786e50e3b1ce819ab0a63e9ecdc2563afc3186bbca61bf65e9ad7f3881c",
- "blog/index.html": "a87e40abf1beeea65cf7af1287576dc88e5a8051d72565ace02345777b283508",
+ "blog/index.html": "19583b6b30f964592845d306c35bc77806f12a23681b167e36185b66f7745473",
  "blog/mortgage-renewal-mistakes.html": "76ef66db1f6b04e662f31feb456ca418d7db7df71a5eb3ac9465ca3a2d8383a7",
  "blog/private-mortgage-guide.html": "4be0ad4a7fe8fac303518594d396921a3a650ea3198212c6cf2874e49e1230a1",
  "calculators.html": "19716bae9c10e866748629a0e44b9508bafd61ce03f7c748cd0ed8067ce5e094",
@@ -22,7 +22,7 @@
  "contact.html": "85928572d6d2752b47f857e75362b762f1a2fa66cb50367cc2c9d691ce7a969e",
  "fa/about.html": "8a9e05c6a68719ede70d99c30fea5fed01b72e91858f2675fe3f6d6c77bc1970",
  "fa/blog/first-time-home-buyer-toronto.html": "f657332fee1e76a8e4ad307d89b72ed6aefbf541ef976816ff26f1519226cd66",
- "fa/blog/index.html": "dfc04056de802830edfe9be02e255a337b1b6f2772dda9f215a03d5c7ddff121",
+ "fa/blog/index.html": "22291a6dfc736f4d365b5a277e18220a20900d3ed74460069918dc644ce35abb",
  "fa/blog/mortgage-renewal-mistakes.html": "0588896f5e7a8a6f4bf3f9dd2c3c93e292805fe8e9fff0b1dbcdcf966a3418c3",
  "fa/blog/private-mortgage-guide.html": "2ba78b83f23bd674cfc05ce8dab233f322dbe0d842db8f30f15f25a1ba862854",
  "fa/calculators.html": "15d18aac83ba19a74947dea58b11e6fc2717b301ac7d654c7f3995206449f5f9",
@@ -47,5 +47,5 @@
  "services/mortgage-renewal.html": "9d19ae09c60f41068790eee918828b4832854573c8c2d5a9dd914370a62c8997",
  "services/private-mortgages.html": "533687bcadd9ba84cf5569ce51566dad2d8ddc24347b39438626cf8f10f58bb5",
  "services/refinancing.html": "a4f8cbac9b809c3a3a06706d4d92659b6025180cee6c70e6478eb241fe433423",
- "sitemap.xml": "08f10f517f633e0d89530ab54beee475aeec2aa5cfd479d76d313127708d79a8"
+ "sitemap.xml": "7d45a35cd4e02bf3d705c182950adb4d75e68138495a445aac13e7aaf814b6c5"
 }
