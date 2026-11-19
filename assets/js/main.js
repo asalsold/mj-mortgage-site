@@ -173,8 +173,8 @@
       }).then(function () {
         msg.className = 'form-msg ok';
         msg.innerHTML = form.getAttribute('data-ok') || (FA
-          ? '✅ پیام شما ارسال شد! مرجان خیلی زود با شما تماس می‌گیرد. برای پاسخ فوری: <a href="tel:+14168571466"><strong>416-857-1466</strong></a>'
-          : '✅ Message sent! Marjan will be in touch shortly. For an immediate answer call <a href="tel:+14168571466"><strong>416-857-1466</strong></a>.');
+          ? 'پیام شما ارسال شد. مرجان به‌زودی با شما تماس می‌گیرد. برای پاسخ فوری: <a href="tel:+14168571466"><strong>416-857-1466</strong></a>'
+          : 'Message sent. Marjan will be in touch soon. To talk now, call <a href="tel:+14168571466"><strong>416-857-1466</strong></a>.');
         form.reset();
         if (window.mjTrack) mjTrack('lead_form_submitted', { form_location: funnel, delivery: delivery });
         if (window.gtag) gtag('event', 'generate_lead', {
